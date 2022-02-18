@@ -1,0 +1,8 @@
+trees:
+- tree: files
+  path: /
+  args:
+    directory: data/
+    readers_by_mimetype:
+      text/csv: "adapter:MyFileAdapter.from_file"
+
